@@ -1,0 +1,23 @@
+<Invoice xmlns="urn:blablablabla:lorem" xmlns:aaa="urn:blablablabla:SpecificValue" xmlns:bbb="urn:blablablabla:AnotherSpecificValue">
+    <bbb:DOCUMENT_ID>8a978bn30284c7c9p-98x2n239-bx8230x23</bbb:DOCUMENT_ID>
+    <bbb:CurrencyCode>TRY</bbb:CurrencyCode>
+    <aaa:Reference>
+        <bbb:ID>f232v346v2346-g4v23g6v</bbb:ID>
+        <bbb:IssueDate>2025-02-02</bbb:IssueDate>
+        <bbb:DocumentTypeCode>CUSTOMER_ID</bbb:DocumentTypeCode>
+    </aaa:Reference>
+    <aaa:Reference>
+        <bbb:ID>1</bbb:ID>
+        <bbb:IssueDate>2025-02-02</bbb:IssueDate>
+        <bbb:DocumentTypeCode>DOCUMENT_TYPE</bbb:DocumentTypeCode>
+        <bbb:DocumentType>XSL</bbb:DocumentType>
+    </aaa:Reference>
+    <aaa:Total>
+		<aaa:ExchangeRate>
+			<bbb:SourceCurrencyCode>TRY</bbb:SourceCurrencyCode>
+			<bbb:Rate>1</bbb:Rate>
+		</aaa:ExchangeRate>
+        <bbb:Amount currencyID="TRY">222200.00</bbb:Amount>
+        <bbb:Amount2 currencyID="TRY">955500.00</bbb:Amount2>
+    </aaa:Total>
+</Invoice>
